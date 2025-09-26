@@ -1,3 +1,7 @@
+***
+title: Documentation
+***
+
 ## Beginning Steps
 - New GitHub Repo
 - `index.md`  or  `index.html` file
