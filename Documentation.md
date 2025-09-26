@@ -1,6 +1,6 @@
-***
+---
 title: Documentation
-***
+---
 
 ## Beginning Steps
 - New GitHub Repo
