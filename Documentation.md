@@ -40,7 +40,7 @@ It is possible to use [Jekyll Themes](https://jekyllthemes.io/) , to use one, cr
 theme : theme_name
 ```
 To find free Jekyll themes, open [Jekyll Free Themes](https://jekyllthemes.io/free)
-List of 100% Supported Jekyll Themes for GitHub Pages : 
+List of Supported Jekyll Themes for GitHub Pages : 
 - Architect
 - Cayman
 - Dinky
@@ -54,6 +54,8 @@ List of 100% Supported Jekyll Themes for GitHub Pages :
 - Slate
 - Tactile
 - Time machine
+
+>Although some of these themes seem to be supported, implementing them could be using `theme: jekyll-theme-name`
 
 #### If the Theme is ***not*** Officially Sypported 
 ``` yaml
@@ -70,3 +72,9 @@ remote_theme: jekyll
 
 #### Manual Installation with a Fork
 ?
+
+--- 
+
+## Config File
+
+we know the `_config.yml` file was until now used for themes, but there are other things it can be used for :
