@@ -28,8 +28,8 @@ title: Documentation
      c. Custom Domains are Available
 
 The Site will be published at either a personal repo page *as a personal website , or a normal page :
-- **Personal Page &emsp;&emsp;&emsp;&emsp;&nbsp;&ensp;&ensp; :** a repo named `username.github.io` will be published as `https://username.github.io/`
-- **Project Page** *(normal page)* **:** any other repo that's not the username or a Personal Page will be published as `https://username.github.io/repo-name/`
+- #### **Personal Page :** a repo named `username.github.io` will be published as `https://username.github.io/`
+- #### **Project Page** *(normal page)* **:** any other repo that's not the username or a Personal Page will be published as `https://username.github.io/repo-name/`
 
 
 ## Themes
@@ -78,3 +78,36 @@ remote_theme: jekyll
 ## Config File
 
 we know the `_config.yml` file was until now used for themes, but there are other things it can be used for :
+
+ - #### `nav order` : used to easily rearrange the structure of a multi-page website *(like in `just-the-docs` for example)* this variable is **theme-dependant**
+
+
+- #### `title` : sets the name of the site, in the browser and in a page in the site, if we don't use this variable, the default title for a page is the first thing in it
+
+
+- #### `description` : a short site-wide description
+
+- #### `baseurl` : must be set if the repo is a project site
+
+- #### `url` : must match *custom domain*
+
+- #### `theme: jekyll-theme-suppoted_theme_name` : used for **supported** themes only
+
+- #### `remote_theme: owner/repo` : used for themes inside of GitHub that aren't in the list of those *natively* supported
+
+- #### `author` :  gives different informations on the author
+``` markdown 
+    author:
+    name: "Jane Doe"
+    email: "jane@example.com"
+    github: "janedoe"
+    twitter: "@janedoe"
+ ```
+
+ ***and a lot more, check out*** [Official GitHub Documentation of GitHub Pages](https://docs.github.com/en/pages)
+
+
+---
+
+
+
